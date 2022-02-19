@@ -1,14 +1,6 @@
-//
-//  SecondViewController.swift
-//  RightOnTarget
-//
-//  Created by Daniil on 19.02.22.
-//
-
 import UIKit
 
 class SecondViewController: UIViewController {
-
     
     override func loadView() {
         super.loadView()

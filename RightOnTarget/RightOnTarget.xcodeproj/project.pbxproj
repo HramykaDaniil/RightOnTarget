@@ -13,6 +13,7 @@
 		04C0CE6527C0D1ED0094AF40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C0CE6327C0D1ED0094AF40 /* Main.storyboard */; };
 		04C0CE6727C0D2030094AF40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C0CE6627C0D2030094AF40 /* Assets.xcassets */; };
 		04C0CE6A27C0D2030094AF40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C0CE6827C0D2030094AF40 /* LaunchScreen.storyboard */; };
+		04C0CE7227C112900094AF40 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0CE7127C1128F0094AF40 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		04C0CE6627C0D2030094AF40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C0CE6927C0D2030094AF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C0CE6B27C0D2030094AF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C0CE7127C1128F0094AF40 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				04C0CE5D27C0D1ED0094AF40 /* AppDelegate.swift */,
 				04C0CE5F27C0D1ED0094AF40 /* SceneDelegate.swift */,
 				04C0CE6127C0D1ED0094AF40 /* ViewController.swift */,
+				04C0CE7127C1128F0094AF40 /* SecondViewController.swift */,
 				04C0CE6327C0D1ED0094AF40 /* Main.storyboard */,
 				04C0CE6627C0D2030094AF40 /* Assets.xcassets */,
 				04C0CE6827C0D2030094AF40 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C0CE7227C112900094AF40 /* SecondViewController.swift in Sources */,
 				04C0CE6227C0D1ED0094AF40 /* ViewController.swift in Sources */,
 				04C0CE5E27C0D1ED0094AF40 /* AppDelegate.swift in Sources */,
 				04C0CE6027C0D1ED0094AF40 /* SceneDelegate.swift in Sources */,
@@ -302,7 +306,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = DH.RightOnTarget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -331,7 +335,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = DH.RightOnTarget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
